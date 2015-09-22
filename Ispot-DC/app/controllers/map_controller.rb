@@ -8,5 +8,4 @@ class MapController < ApplicationController
 
 	end
 
-	
 end

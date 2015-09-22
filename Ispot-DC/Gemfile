@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'yelp', require: 'yelp'
 gem 'gon'
 #Geocoder is for finding the location in the MapBox API
 gem 'geocoder'
