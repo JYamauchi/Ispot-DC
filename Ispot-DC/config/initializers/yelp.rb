@@ -1,3 +1,7 @@
+require 'yelp'
+require 'rubygems'
+require 'oauth2'
+
 Yelp.client.configure do |config|
   config.consumer_key = ENV['YELP_CONSUMER_KEY']
   config.consumer_secret = ENV['YELP_CONSUMER_SECRET']

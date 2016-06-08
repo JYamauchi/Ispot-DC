@@ -11,4 +11,6 @@ Rails.application.routes.draw do
   resources :restaurants
   resources :nightclubs
 
+   get '/search', to: 'main#search'
+
 end
